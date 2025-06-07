@@ -1,3 +1,9 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+# CNN-Image-Classifier
+=======
+>>>>>>> c049cae (Initial commit)
 # 🧠 CNN Image Classifier - CIFAR-10
 
 This project is a simple **Convolutional Neural Network (CNN)** model built using **TensorFlow and Keras** to classify images from the **CIFAR-10** dataset into one of 10 categories such as airplanes, cars, birds, cats, etc.
@@ -21,4 +27,9 @@ INTERNSHIP/
 ├── CNN.py             # Main model training and evaluation script
 ├── myenv/             # (Optional) Your virtual environment folder
 ├── .gitignore         # To exclude files/folders from Git
+<<<<<<< HEAD
 ├── README.md          # Project documentation
+=======
+├── README.md          # Project documentation
+>>>>>>> 7510333 (Initial commit)
+>>>>>>> c049cae (Initial commit)
