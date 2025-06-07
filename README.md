@@ -1,35 +1,72 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-# CNN-Image-Classifier
-=======
->>>>>>> c049cae (Initial commit)
-# 🧠 CNN Image Classifier - CIFAR-10
+CNN Image Classification using CIFAR-10 Dataset
+This project demonstrates how to build and train a Convolutional Neural Network (CNN) for image classification using the popular CIFAR-10 dataset. It includes model building, evaluation, performance visualization, and sample predictions — ideal for internship or academic projects.
 
-This project is a simple **Convolutional Neural Network (CNN)** model built using **TensorFlow and Keras** to classify images from the **CIFAR-10** dataset into one of 10 categories such as airplanes, cars, birds, cats, etc.
-
----
-
-## 📌 Project Overview
-
-- ✅ **Dataset**: CIFAR-10 (60,000 32x32 color images in 10 classes)
-- ✅ **Model**: CNN with Conv2D, MaxPooling, Dense, and Dropout layers
-- ✅ **Goal**: Image classification with high accuracy
-- ✅ **Framework**: TensorFlow / Keras
-
----
-
-## 📁 Folder Structure
-
-```bash
-INTERNSHIP/
+📁 Project Structure
+bash
+Copy
+Edit
+CNN_Image_Classification/
 │
-├── CNN.py             # Main model training and evaluation script
-├── myenv/             # (Optional) Your virtual environment folder
-├── .gitignore         # To exclude files/folders from Git
-<<<<<<< HEAD
-├── README.md          # Project documentation
-=======
-├── README.md          # Project documentation
->>>>>>> 7510333 (Initial commit)
->>>>>>> c049cae (Initial commit)
+├── CNN_Image_Classification_Report.pdf  # Final internship report
+├── output/                        # Folder with output charts/images (optional)
+└── README.md                      # This file
+🧰 Technologies Used
+Python 3
+
+TensorFlow / Keras
+
+NumPy
+
+Matplotlib
+
+CIFAR-10 Dataset
+
+📊 Dataset Info
+CIFAR-10 consists of 60,000 32x32 color images in 10 classes:
+
+Airplane, Automobile, Bird, Cat, Deer, Dog, Frog, Horse, Ship, Truck
+
+Split into:
+
+50,000 training images
+
+10,000 test images
+
+🚀 How the Model Works
+Load and preprocess CIFAR-10 data (normalization + one-hot encoding)
+
+Build CNN with layers:
+
+Conv2D → ReLU → MaxPooling
+
+Conv2D → ReLU → MaxPooling
+
+Flatten → Dense → Dropout
+
+Compile using categorical_crossentropy and Adam optimizer
+
+Train and validate
+
+Visualize accuracy/loss graphs
+
+Make sample predictions
+
+📷 Sample Output
+Training Accuracy	Sample Prediction
+
+✅ How to Run the Project
+Clone or download this repo
+
+Open cnn_cifar10_model.ipynb in Jupyter/Colab/VSC
+
+Run the cells in order
+
+📄 Report
+Detailed explanation of model building, results, and screenshots is available in:
+📘 CNN_Image_Classification_Report.pdf
+
+✍️ Author
+Pranav M
+Intern at Navodita Infotech
+📧 pranavagneeshm@gmail.com
+
